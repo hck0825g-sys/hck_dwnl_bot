@@ -4,7 +4,7 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
 
 # Load ENV token
-TOKEN = os.getenv("8433482237:AAG4rXecpdoDH3IXOdng_DbuvQc_q-FM4Ow")
+TOKEN = os.getenv("TELEGRAM_TOKEN")
 ADMIN_ID = 7918600537  # tumhara admin ID
 
 # Load database
